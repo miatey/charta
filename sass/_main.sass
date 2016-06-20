@@ -1,0 +1,367 @@
+// Normally mainpage styles
+.wrapper
+  overflow: hidden
+  margin: 0 auto
+  max-width: 1098px
+
+
+.header
+  width: 100%
+  overflow: hidden
+  font-family: 'justusitalic'
+  font-size: 14px
+  line-height: 2
+  text-transform: uppercase
+  font-weight: bold
+  padding-top: 3%
+  padding-bottom: 16px
+
+  &__text
+    width: 44.5%
+    float: left
+    text-align: left
+    letter-spacing: 0.34px
+    padding-top: 33px
+    +r(785)
+      display: block
+      float: none
+      margin: auto
+      padding-bottom: 0
+  &__logo
+    overflow: hidden
+    width: 11%
+    float: left
+    text-align: center
+    +r(785)
+      display: block
+      float: none
+      margin: auto
+    a
+      overflow: hidden
+      display: block
+  &__img
+    display: block
+    float: none
+
+.text-red
+  color: #982e33
+  text-align: left
+  width: 40.5%
+  float: left
+  letter-spacing: 0.34px
+  padding-top: 33px
+  padding-left: 30px
+  +r(785)
+    display: block
+    float: none
+    margin: auto
+    padding: 0 0
+
+.conteiner
+  width: 100%
+  background: url(../img/paper1.png) no-repeat
+  background-size: cover
+  float: left
+  padding-top: 4.5%
+  +r(1114)
+    width: 90%
+    float: none
+    padding-top: 0
+  &__paper1
+    width: 100%
+    float: left
+    padding-right: 12.8%
+    padding-left: 12.5%
+  &__title
+    font-family: 'loveloblack'
+    font-size: 50px
+    line-height: 0.54
+    text-align: center
+    padding-top: 37px
+    padding-bottom: 34px
+    border-top: 4px solid black
+    border-bottom: 4px solid black
+    letter-spacing: 7px
+    padding-left: 13px
+    +r(1000)
+      letter-spacing: 0
+    +r(816)
+      line-height: 0
+      font-size: 48px
+
+  &__block
+    float: left
+    width: 100%
+    padding-top: 3.3%
+    padding-bottom: 4.2%
+  &__businesscard
+    float: left
+    width: 54.5%
+    border-right: 1px solid #c0c0c0
+    padding-top: 9px
+    +r(1116)
+      float: none
+      margin: auto
+    button
+      width: 110px
+      height: 40px
+      background: black
+      border: none
+      position: relative
+      background-clip: padding-box
+      color: white
+      float: right
+      position: absolute
+      bottom: 0
+      right: 0
+      text-transform: uppercase
+      font-family: 'loveloblack'
+      font-size: 12.5px
+  &__block2
+    float: right
+    width: 41.5%
+    padding-top: 0.2%
+    +r(1116)
+      float: none
+      margin: auto
+    h2
+      font-family: 'loveloblack'
+      font-size: 36px
+      line-height: 1.2
+      letter-spacing: 1.9px
+      text-align: left
+      padding-bottom: 15px
+  &__block2--p1
+    color: #982e33
+    font-size: 18px
+    font-family: 'loveloblack'
+    line-height: 1.2
+    padding-bottom: 15px
+  &__block2--p2
+    font-family: 'justusoldstyle'
+    font-size: 14px
+    line-height: 1.72
+
+.paperlogos
+  width: 100%
+  background: url(../img/paper2.png) no-repeat
+  float: left
+  +r(1114)
+    float: none
+  &__paper2
+    width: auto
+    clear: both
+    float: left
+    padding-top: 58px
+    padding-left: 12.7%
+    padding-right: 7.3%
+  &__logos
+    width: auto
+    float: left
+    padding-bottom: 14px
+    +r(1116)
+      float: none
+  &__blockall
+    width: 49.1%
+    float: left
+    +r(1116)
+      width: 77.1%
+      float: none
+      overflow: hidden
+  &__blockleft
+    width: 42%
+    float: left
+    padding-bottom: 41px
+    +r(1116)
+      width: auto
+  &__blockright
+    width: 53%
+    float: left
+    padding-left: 5.5%
+    border-right: 1px solid #c0c0c0
+    +r(1116)
+      border: none
+    a
+      color: #982e33
+  &__header-h
+    font-family: 'loveloblack'
+    font-size: 14px
+    padding-bottom: 2%
+  &__content-1
+    font-family: 'justusitalic'
+    font-size: 14px
+    padding-bottom: 3px
+  &__content-2
+    font-family: 'justusoldstyle'
+    font-size: 14px
+    line-height: 1.78
+    padding-bottom: 7.8%
+  &__content-3
+    font-family: 'justusitalic'
+    font-size: 14px
+    color: #982e33
+
+.paperfollowus
+  width: 100%
+  background: url(../img/paper3.png) no-repeat
+  float: left
+  padding-bottom: 17px
+  +r(1114)
+    float: none
+    padding-bottom: 0
+  &__paper3
+    width: auto
+    float: left
+    padding-top: 39px
+    padding-left: 12.7%
+    padding-right: 7.3%
+  &__footer
+    width: 100%
+    overflow: hidden
+    padding-top: 8px
+    padding-bottom: 19px
+    +r(1116)
+      float: none
+  &__about
+    width: 64%
+    float: left
+    border-left: 4px solid black
+    padding-left: 12px
+    +r(1116)
+      float: none
+    p
+      font-family: 'justusversalitas'
+      font-size: 15px
+      font-variant: small-caps
+      font-weight: bold
+      line-height: 1.7
+      letter-spacing: 0.3px
+      padding-top: 5px
+  &__us
+    position: relative
+    width: 29%
+    float: right
+    margin-right: -13px
+    +r(1116)
+      float: none
+  &__logo
+    float: left
+  &__about-h
+    font-family: 'loveloblack'
+    font-size: 14px
+  &__img-pink
+    width: 40px
+    height: 40px
+    &:hover
+      width: 40px
+      height: 40px
+      background: url(../img/dribble_hover.png)
+  &__img-purple
+    width: 40px
+    height: 40px
+    &:hover
+      width: 40px
+      height: 40px
+      background: url(../img/facebook_hover.png)
+  &__img-blue
+    width: 40px
+    height: 40px
+    &:hover
+      width: 40px
+      height: 40px
+      background: url(../img/twitter_hover.png)
+  &__img-brown
+    width: 40px
+    height: 40px
+    &:hover
+      width: 40px
+      height: 40px
+      background: url(../img/google_hover.png)
+
+.footer
+  overflow: hidden
+  width: 100%
+  text-align: center
+  p
+    float: left
+  button
+    position: relative
+    display: block
+    clear: both
+    width: 147px
+    height: 87px
+    cursor: pointer
+    background: url(../img/button_footer.png) top center no-repeat
+    background-clip: padding-box
+    color: white
+    border: none
+    margin: auto
+    vertical-align: baseline
+    +r(1116)
+      display: none
+  &__top
+    span
+      position: absolute
+      display: inline-block
+      top: 17px
+      left: 60px
+  &__copyright
+    position: relative
+    margin: auto
+    width: 955px
+  &__justus
+    position: absolute
+    font-family: 'justusitalic'
+    top: -26px
+    left: 67px
+    font-size: 14px
+  &__lovelo
+    position: absolute
+    font-family: 'loveloblack'
+    font-size: 13px
+    top: -50px
+    left: 67px
+    letter-spacing: 0.5px
+
+.span-red
+  font-style: 'italic'
+  color: #982e33
+  font-variant: normal
+
+.color-image
+  display: block
+  float: left
+  margin-right: 7px
+  margin-top: 15px
+
+.grey-line
+  width: 88%
+  color: #c0c0c0
+  +r(1116)
+    border: none
+
+.logos__padding
+  padding-bottom: 37px
+
+.picture
+  border-top: 3px solid black
+
+.businesscard-image
+  float: left
+  position: relative
+
+.double-bottom
+  border-bottom: 2px solid black
+  color: black
+  padding-bottom: 1px
+
+.double-top
+  border-top: 2px solid black
+  color: black
+  background: none
+  padding-top: 1px
+
+.center
+  overflow: hidden
+  width: 820px
+  margin: auto

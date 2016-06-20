@@ -1,0 +1,135 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; vertical-align: baseline; }
+
+body, html { height: 100%; }
+
+img, fieldset, a img { border: none; }
+
+input[type="text"], input[type="email"], input[type="tel"], textarea { -webkit-appearance: none; }
+
+input[type="submit"], button { cursor: pointer; }
+input[type="submit"]::-moz-focus-inner, button::-moz-focus-inner { padding: 0; border: 0; }
+
+textarea { overflow: auto; }
+
+input, button { margin: 0; padding: 0; border: 0; }
+
+div, input, textarea, select, button, h1, h2, h3, h4, h5, h6, a, span, a:focus { outline: none; }
+
+ul, ol { list-style-type: none; }
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) { * { -webkit-text-size-adjust: none; } }
+table { border-spacing: 0; border-collapse: collapse; width: 100%; }
+
+html { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+
+* { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+*:before, *:after { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+
+body { background: url(../img/background.png); font-family: Arial, sans-serif; font-size: 12px; line-height: 1.4; min-width: 783px; }
+
+hr { margin: 0; }
+
+.l { *zoom: 1; }
+.l:after { content: " "; display: table; clear: both; }
+.l .l-col1 { float: left; width: 20%; }
+.l .l-col2 { float: right; width: 70%; }
+
+.wrapper { overflow: hidden; margin: 0 auto; max-width: 1098px; }
+
+.header { width: 100%; overflow: hidden; font-family: "justusitalic"; font-size: 14px; line-height: 2; text-transform: uppercase; font-weight: bold; padding-top: 3%; padding-bottom: 16px; }
+.header__text { width: 44.5%; float: left; text-align: left; letter-spacing: 0.34px; padding-top: 33px; }
+@media only screen and (max-width: 785px) { .header__text { display: block; float: none; margin: auto; padding-bottom: 0; } }
+.header__logo { overflow: hidden; width: 11%; float: left; text-align: center; }
+@media only screen and (max-width: 785px) { .header__logo { display: block; float: none; margin: auto; } }
+.header__logo a { overflow: hidden; display: block; }
+.header__img { display: block; float: none; }
+
+.text-red { color: #982e33; text-align: left; width: 40.5%; float: left; letter-spacing: 0.34px; padding-top: 33px; padding-left: 30px; }
+@media only screen and (max-width: 785px) { .text-red { display: block; float: none; margin: auto; padding: 0 0; } }
+
+.conteiner { width: 100%; background: url(../img/paper1.png) no-repeat; background-size: cover; float: left; padding-top: 4.5%; }
+@media only screen and (max-width: 1114px) { .conteiner { width: 90%; float: none; padding-top: 0; } }
+.conteiner__paper1 { width: 100%; float: left; padding-right: 12.8%; padding-left: 12.5%; }
+.conteiner__title { font-family: "loveloblack"; font-size: 50px; line-height: 0.54; text-align: center; padding-top: 37px; padding-bottom: 34px; border-top: 4px solid black; border-bottom: 4px solid black; letter-spacing: 7px; padding-left: 13px; }
+@media only screen and (max-width: 1000px) { .conteiner__title { letter-spacing: 0; } }
+@media only screen and (max-width: 816px) { .conteiner__title { line-height: 0; font-size: 48px; } }
+.conteiner__block { float: left; width: 100%; padding-top: 3.3%; padding-bottom: 4.2%; }
+.conteiner__businesscard { float: left; width: 54.5%; border-right: 1px solid #c0c0c0; padding-top: 9px; }
+@media only screen and (max-width: 1116px) { .conteiner__businesscard { float: none; margin: auto; } }
+.conteiner__businesscard button { width: 110px; height: 40px; background: black; border: none; position: relative; background-clip: padding-box; color: white; float: right; position: absolute; bottom: 0; right: 0; text-transform: uppercase; font-family: "loveloblack"; font-size: 12.5px; }
+.conteiner__block2 { float: right; width: 41.5%; padding-top: 0.2%; }
+@media only screen and (max-width: 1116px) { .conteiner__block2 { float: none; margin: auto; } }
+.conteiner__block2 h2 { font-family: "loveloblack"; font-size: 36px; line-height: 1.2; letter-spacing: 1.9px; text-align: left; padding-bottom: 15px; }
+.conteiner__block2--p1 { color: #982e33; font-size: 18px; font-family: "loveloblack"; line-height: 1.2; padding-bottom: 15px; }
+.conteiner__block2--p2 { font-family: "justusoldstyle"; font-size: 14px; line-height: 1.72; }
+
+.paperlogos { width: 100%; background: url(../img/paper2.png) no-repeat; float: left; }
+@media only screen and (max-width: 1114px) { .paperlogos { float: none; } }
+.paperlogos__paper2 { width: auto; clear: both; float: left; padding-top: 58px; padding-left: 12.7%; padding-right: 7.3%; }
+.paperlogos__logos { width: auto; float: left; padding-bottom: 14px; }
+@media only screen and (max-width: 1116px) { .paperlogos__logos { float: none; } }
+.paperlogos__blockall { width: 49.1%; float: left; }
+@media only screen and (max-width: 1116px) { .paperlogos__blockall { width: 77.1%; float: none; overflow: hidden; } }
+.paperlogos__blockleft { width: 42%; float: left; padding-bottom: 41px; }
+@media only screen and (max-width: 1116px) { .paperlogos__blockleft { width: auto; } }
+.paperlogos__blockright { width: 53%; float: left; padding-left: 5.5%; border-right: 1px solid #c0c0c0; }
+@media only screen and (max-width: 1116px) { .paperlogos__blockright { border: none; } }
+.paperlogos__blockright a { color: #982e33; }
+.paperlogos__header-h { font-family: "loveloblack"; font-size: 14px; padding-bottom: 2%; }
+.paperlogos__content-1 { font-family: "justusitalic"; font-size: 14px; padding-bottom: 3px; }
+.paperlogos__content-2 { font-family: "justusoldstyle"; font-size: 14px; line-height: 1.78; padding-bottom: 7.8%; }
+.paperlogos__content-3 { font-family: "justusitalic"; font-size: 14px; color: #982e33; }
+
+.paperfollowus { width: 100%; background: url(../img/paper3.png) no-repeat; float: left; padding-bottom: 17px; }
+@media only screen and (max-width: 1114px) { .paperfollowus { float: none; padding-bottom: 0; } }
+.paperfollowus__paper3 { width: auto; float: left; padding-top: 39px; padding-left: 12.7%; padding-right: 7.3%; }
+.paperfollowus__footer { width: 100%; overflow: hidden; padding-top: 8px; padding-bottom: 19px; }
+@media only screen and (max-width: 1116px) { .paperfollowus__footer { float: none; } }
+.paperfollowus__about { width: 64%; float: left; border-left: 4px solid black; padding-left: 12px; }
+@media only screen and (max-width: 1116px) { .paperfollowus__about { float: none; } }
+.paperfollowus__about p { font-family: "justusversalitas"; font-size: 15px; font-variant: small-caps; font-weight: bold; line-height: 1.7; letter-spacing: 0.3px; padding-top: 5px; }
+.paperfollowus__us { position: relative; width: 29%; float: right; margin-right: -13px; }
+@media only screen and (max-width: 1116px) { .paperfollowus__us { float: none; } }
+.paperfollowus__logo { float: left; }
+.paperfollowus__about-h { font-family: "loveloblack"; font-size: 14px; }
+.paperfollowus__img-pink { width: 40px; height: 40px; }
+.paperfollowus__img-pink:hover { width: 40px; height: 40px; background: url(../img/dribble_hover.png); }
+.paperfollowus__img-purple { width: 40px; height: 40px; }
+.paperfollowus__img-purple:hover { width: 40px; height: 40px; background: url(../img/facebook_hover.png); }
+.paperfollowus__img-blue { width: 40px; height: 40px; }
+.paperfollowus__img-blue:hover { width: 40px; height: 40px; background: url(../img/twitter_hover.png); }
+.paperfollowus__img-brown { width: 40px; height: 40px; }
+.paperfollowus__img-brown:hover { width: 40px; height: 40px; background: url(../img/google_hover.png); }
+
+.footer { overflow: hidden; width: 100%; text-align: center; }
+.footer p { float: left; }
+.footer button { position: relative; display: block; clear: both; width: 147px; height: 87px; cursor: pointer; background: url(../img/button_footer.png) top center no-repeat; background-clip: padding-box; color: white; border: none; margin: auto; vertical-align: baseline; }
+@media only screen and (max-width: 1116px) { .footer button { display: none; } }
+.footer__top span { position: absolute; display: inline-block; top: 17px; left: 60px; }
+.footer__copyright { position: relative; margin: auto; width: 955px; }
+.footer__justus { position: absolute; font-family: "justusitalic"; top: -26px; left: 67px; font-size: 14px; }
+.footer__lovelo { position: absolute; font-family: "loveloblack"; font-size: 13px; top: -50px; left: 67px; letter-spacing: 0.5px; }
+
+.span-red { font-style: "italic"; color: #982e33; font-variant: normal; }
+
+.color-image { display: block; float: left; margin-right: 7px; margin-top: 15px; }
+
+.grey-line { width: 88%; color: #c0c0c0; }
+@media only screen and (max-width: 1116px) { .grey-line { border: none; } }
+
+.logos__padding { padding-bottom: 37px; }
+
+.picture { border-top: 3px solid black; }
+
+.businesscard-image { float: left; position: relative; }
+
+.double-bottom { border-bottom: 2px solid black; color: black; padding-bottom: 1px; }
+
+.double-top { border-top: 2px solid black; color: black; background: none; padding-top: 1px; }
+
+.center { overflow: hidden; width: 820px; margin: auto; }
+
+@font-face { font-family: "justusitalic"; src: url("../css/fonts/justus-italic_25663-webfont.woff2") format("woff2"), url("../css/fonts/justus-italic_25663-webfont.woff") format("woff"); font-weight: normal; font-style: normal; }
+@font-face { font-family: "loveloblack"; src: url("../css/fonts/lovelo_black-webfont.woff2") format("woff2"), url("../css/fonts/lovelo_black-webfont.woff") format("woff"); font-weight: normal; font-style: normal; }
+@font-face { font-family: "justusoldstyle"; src: url("../css/fonts/justus-oldstyle-webfont.woff2") format("woff2"), url("../css/fonts/justus-oldstyle-webfont.woff") format("woff"); font-weight: normal; font-style: normal; }
+@font-face { font-family: "justusversalitas"; src: url("../css/fonts/justus-versalitas-webfont.woff2") format("woff2"), url("../css/fonts/justus-versalitas-webfont.woff") format("woff"); font-weight: normal; font-style: normal; }
